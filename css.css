@@ -1,0 +1,270 @@
+
+/* ----------------------- Home / Navbar -------------------*/
+#globalCnt{
+	background-image:url('background.jpg');
+	background-size: cover;
+ color: white;
+
+
+	
+}
+
+#globalCnt .header{
+ padding-top: 40px;
+  padding-bottom: 40px;
+ 
+}
+.navbar{
+background: none;
+
+
+}
+.navbar  li {
+	margin: 0 30px;
+  font-weight: 600;
+  padding-top:50px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white; 
+}
+
+
+.navbar  li  a:hover { 
+  background-color:gray;
+  color: white; 
+ }
+
+#globalCnt img{
+padding-top:50px;	
+}
+
+
+
+/* -----------------------Home /content/ button ------------------- */
+.content{
+margin-top: 150px; 
+height:300;
+color: white;
+}
+.content p{
+margin:  30px auto;
+text-align: center; 
+
+}
+
+.content .btn{
+	background: #082968;
+	border: 1px solid white;
+	border-radius: 4px;
+	color: white;
+	 padding: 1em 1.5em;
+	     margin: 0 1em 0 0;
+
+}
+
+.content .btn:last-child {
+background:none;
+border: 1px solid white;
+border-radius: 2px;
+color: white; 
+margin: 0 1em 0 0;
+}
+
+@media screen and (max-width:992px){
+.content .btn{
+	margin: 20px ;
+}
+
+}
+
+
+
+/* ----------------- Home / Form  -------------------*/
+ 
+
+.form1 .btn{
+  border: 1px solid black;
+ background-color: #082968;
+ width: 150px;
+ color: white;
+
+ }
+
+.card-header{
+	color: black;
+	padding: 40px;
+}
+
+
+
+.card-body{
+padding: 40px;	
+} 
+
+
+
+/* -----------------  Services  -------------------*/
+
+.con1{
+margin: 150px auto;
+text-align: center;
+}
+
+.con1 img{
+width: 50px;
+height: 50px;
+
+}
+
+ .con1 .space  {
+padding: 0 40px  ;
+}
+
+/* ----------------- About US -------------------*/
+
+#globalCnt1{ 
+   	background-color: #043771;
+
+ }
+
+ .con2 {
+padding-top: 60px;
+padding-bottom: 60px;
+text-align: center;
+color: white;
+ }
+ .con2 img{
+ 	width: 100%;
+ }
+#globalCnt1 img{
+width: 100%;
+}
+
+
+
+.con2 h1{
+
+margin-top: 100px;	
+}
+
+@media screen and (max-width:992px){
+.con2 img{
+	margin-top:  30px ;
+}
+
+}
+/* ----------------- Pricing  -------------------------------------*/
+.con2 ul{
+	padding-left: 0;
+
+}
+/* ------- Basic --------*/
+
+.basic li {
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.basic li:nth-child(2){
+ background-color: #082968;
+ border: 1px solid gray;
+ padding: 25px;
+}
+
+.basic li:first-child{
+font-size: 30px; 
+}
+.con2 .btn{
+	background-color: #082968;
+	color: white;
+}
+.basic .btn:hover{
+	background-color: white;
+	color: blue;
+box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+ 
+
+ 
+
+/* -------Premium--------*/
+.premium li {
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.premium li:first-child{
+padding: 50px 0;
+margin: 0;
+font-size: 30px;
+}
+.premium{
+	margin-top: -30px;
+}
+.premium li:nth-child(2){
+padding: 25px ;
+background-color: #082968;
+border: 1px solid gray;
+}
+.premium .btn{
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.50);
+}
+
+.premium .btn:hover{
+	background-color: white;
+	color: blue;
+box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* ------- Standard -------*/
+.standard  li {
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.standard li:first-child{
+font-size: 30px; 
+}
+ 
+.standard li:nth-child(2){
+	background-color:#082968;
+	border: 1px solid gray;
+	 padding: 25px;
+}
+
+.standard .btn{
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.50);
+}
+
+.standard .btn:hover{
+	background-color: white;
+	color: blue;
+box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width:992px){
+.premium{
+	margin:0 0 20px 0;
+}
+}
+
+
+
+
+/* -----------------  Footer  -------------------------------------*/
+
+#Footer{
+	background-color: #1B1C29;
+	color: white;
+
+ }
+ 
+ #Footer{
+text-align: center;
+ 
+ }
+
+ 
+
+@media (min-width: 1400px){ 
+.container {
+    max-width: 1400px;
+}
+ }
